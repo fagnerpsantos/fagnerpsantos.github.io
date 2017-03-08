@@ -1,5 +1,5 @@
 <?php
-    $to = "morshed08@gmail.com";
+    $to = "fagnerpinheirosanatos@gmail.com";
     $from = $_REQUEST['name'];
     $headers = "Content-type: text/html;From: $from";
 
