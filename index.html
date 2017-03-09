@@ -11,6 +11,7 @@
         
         <!-- Fonts -->
         <!-- Lato -->
+        <link href="css/bars.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
@@ -54,9 +55,9 @@
 	            <nav class="collapse navbar-collapse" id="navbar">
 	                <ul class="nav navbar-nav navbar-right" id="top-nav">
 	                    <li class="current"><a href="#body">Home</a></li>
-	                    <li><a href="#about">Sobre</a></li>
+	                    <li><a href="#about">About</a></li>
 	                    <li><a href="#service">Skills</a></li>
-	                    <li><a href="#contact">Contato</a></li>
+	                    <li><a href="#contact">Contact</a></li>
 	                </ul>
 	            </nav><!-- /.navbar-collapse -->
 	        </div><!-- /.container-fluid -->
@@ -68,9 +69,9 @@
 	                <div class="col-md-6">
 	                    <div class="block">
 	                        <h1 class="wow fadeInDown">Fagner Pinheiro Santos :)</h1>
-	                        <p class="wow fadeInDown" data-wow-delay="0.3s">Vamos trabalhar juntos ;)</p>
+	                        <p class="wow fadeInDown" data-wow-delay="0.3s">Let's work together ;)</p>
 	                        <div class="wow fadeInDown" data-wow-delay="0.3s">
-	                        	<a class="btn btn-default btn-home" href="#about" role="button">Ver Mais</a>
+	                        	<a class="btn btn-default btn-home" href="#about" role="button">See More</a>
 	                        </div>
 	                    </div>
 	                </div>
@@ -86,15 +87,16 @@
         <section id="about" class="section">
             <div class="container">
                 <div class="row">
+                    <div class="heading wow fadeInUp">
+                        <h2>About</h2>
                     <div class="col-md-12 col-sm-12 wow fadeInLeft">
                     	<div class="sub-heading">
-                    		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a.</h3>
+                    		<h3>Greetings, I’m Fagner. I’m a student of Information Systems at Bahia Federal Institute of Education, Science and Technology, Web Developer Freelancer and Editorial Reviewer at <a href="http://www.devmedia.com.br/">DevMedia</a>.</h3>
                     	</div>
                         <div class="block">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur.
+                                I'm living in Vitória da Conquista - BA, Brazil. I am a fan of technology and web development (Django, Laravel).
                             </p>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -112,11 +114,29 @@
                 <div class="row">
                     <div class="heading wow fadeInUp">
                         <h2>My Skills</h2>
-                        <p></p>
+  <section class='wrap'>
+    <div class='wrap'>
+      <div class='bar_group' max='100'>
+        <div class='bar_group__bar thin' label='PHP/PHP Frameworks' show_values='true' tooltip='true' value='90'></div>
+        <div class='bar_group__bar thin' label='Python/Python Frameworks' tooltip='true' show_values='true' value='85'></div>
+        <div class='bar_group__bar thin' label='CSS/CSS Frameworks' tooltip='true' show_values='true' value='60'></div>
+        <div class='bar_group__bar thin' label='JS/JS Frameworks' tooltip='true' show_values='true' value='60'></div>
+        <div class='bar_group__bar thin' label='HTML5' show_values='true' tooltip='true' value='60'></div>
+        <div class='bar_group__bar thin' label='Native Mobile' show_values='true' tooltip='true' value='60'></div>
+        <div class='bar_group__bar thin' label='Hybrid Mobile' show_values='true' tooltip='true' value='70'></div>
+        <div class='bar_group__bar thin' label='Relational Database' show_values='true' tooltip='true' value='80'></div>
+        <div class='bar_group__bar thin' label='Non Relational Database' show_values='true' tooltip='true' value='70'></div>
+        <div class='bar_group__bar thin' label='Linux' show_values='true' tooltip='true' value='80'></div>
+      </div>
+    </div>
+    <div class='clear'></div>
+  </section>
+                        
                     </div>
                 </div>
             </div><!-- .container close -->
         </section><!-- #service close -->
+
 
         <!-- 
         Contact start
@@ -127,8 +147,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="block">
                             <div class="heading wow fadeInUp">
-                                <h2>Vamos conversar</h2>
-                                <p>Entre em contato através dos dados abaixo ou me envie um e-mail</p>
+                                <h2>Let's Talk</h2>
                             </div>
                         </div>
                     </div>
@@ -136,11 +155,11 @@
 						<div class="block text-left">
 							<div class="sub-heading">
 								<h4>Contact Address</h4>
-								<p>Use um desses meios para entrar em contato e vamos conversar sobre seu projeto.</p>
+								<p>My contact information.</p>
 							</div>
 							<address class="address">
                                 <hr>
-								<p>Far, Far Away<br> Vitória da Conquista,<br> Brasil</p>
+								<p>Far, Far Away<br> Vitória da Conquista,<br> Brazil</p>
                                 <hr>
                                 <p><strong>E:</strong>&nbsp;fagnerpinheirosantos@gmail.com<br>
                                 <strong>P:</strong>&nbsp;+55 (77) 99174-1707</p>
@@ -153,15 +172,15 @@
                         <div class="form-group">
                             <form action="#" method="post" id="contact-form">
                                 <div class="input-field">
-                                    <input type="text" class="form-control" placeholder="Seu Nome" name="name">
+                                    <input type="text" class="form-control" placeholder="Your Name" name="name">
                                 </div>
                                 <div class="input-field">
-                                    <input type="email" class="form-control" placeholder="Seu Email" name="email">
+                                    <input type="email" class="form-control" placeholder="Your Email" name="email">
                                 </div>
                                 <div class="input-field">
-                                    <textarea class="form-control" placeholder="Digite sua mensagem :)" rows="3" name="message"></textarea>
+                                    <textarea class="form-control" placeholder="Your Message" rows="3" name="message"></textarea>
                                 </div>
-                                <button class="btn btn-send" type="submit">Enviar</button>
+                                <button class="btn btn-send" type="submit">Send</button>
                             </form>
 
                             <div id="success">
@@ -175,6 +194,7 @@
                 </div>
             </div>
         </section>
+
 
         <section clas="wow fadeInUp">
         	<div class="map-wrapper">
@@ -196,6 +216,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/bars.js"></script>
         
     </body>
 </html>

@@ -1,0 +1,264 @@
+body
+{
+    background: url(../images/bg-tile.jpg);
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size: 16px;
+}
+.container
+{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+    height: 700px;
+}
+.container
+{
+    background: #fff;
+    color: #555;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.container .one.column
+{
+    width: 40px;
+}
+.container .two.columns
+{
+    width: 100px;
+}
+.container .three.columns
+{
+    width: 160px;
+}
+.container .four.columns
+{
+    width: 220px;
+}
+.container .five.columns
+{
+    width: 280px;
+}
+.container .six.columns
+{
+    width: 340px;
+}
+.container .seven.columns
+{
+    width: 400px;
+}
+.container .eight.columns
+{
+    width: 460px;
+}
+.container .nine.columns
+{
+    width: 520px;
+}
+.container .ten.columns
+{
+    width: 580px;
+}
+.container .eleven.columns
+{
+    width: 640px;
+}
+.container .twelve.columns
+{
+    width: 700px;
+}
+.container .thirteen.columns
+{
+    width: 760px;
+}
+.container .fourteen.columns
+{
+    width: 820px;
+}
+.container .fifteen.columns
+{
+    width: 880px;
+}
+.container .sixteen.columns
+{
+    width: 940px;
+}
+
+.container .one-third.column
+{
+    width: 300px;
+}
+.container .two-thirds.column
+{
+    width: 620px;
+}
+
+
+#header.sixteen.columns
+{
+    background: #d64747;
+    margin: auto 0;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#header
+{
+    position: relative;
+}
+.clearfix:before, .clearfix:after, .row:before, .row:after
+{
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.row:after, .clearfix:after
+{
+    clear: both;
+}
+.row, .clearfix
+{
+    zoom: 1;
+}
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear
+{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+#header h1
+{
+    text-align: left;
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin: 6px 0px 20px 0px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.fleft
+{
+    float: left;
+}
+
+h2
+{
+    font-size: 22px;
+    display: block;
+    background-position: right center;
+    padding-left: 0px;
+}
+h2
+{
+    font-size: 20px;
+    line-height: 22px;
+    margin: 30px 0;
+}
+h1
+{
+    font-size: 24px;
+    line-height: 28px;
+}
+h1
+{
+    font-family: "BebasNeueRegular" , Arial, Times New Roman, serif;
+}
+
+
+
+h2
+{
+    display: inline-block;
+    color: #d64747;
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-weight: normal;
+}
+
+
+.column, .columns
+{
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.row
+{
+    margin-bottom: 20px;
+}
+
+
+#bar-1
+{
+    top: 20px;
+}
+#bar-2
+{
+    top: 30px;
+}
+#bar-3
+{
+    top: 40px;
+}
+
+#bar-4
+{
+    top: 50px;
+}
+#bar-5
+{
+    top: 60px;
+}
+#bar-6
+{
+    top: 70px;
+}
+
+#bar-7
+{
+    top: 50px;
+    left: 100px;
+}
+#bar-8
+{
+    top: 50px;
+    left: 120px;
+}
+#bar-9
+{
+    top: 50px;
+    left: 140px;
+}
+#bar-10
+{
+    top: 50px;
+    left: 160px;
+}
+#bar-11
+{
+    top: 50px;
+    left: 180px;
+}
+#bar-12
+{
+    top: 50px;
+    left: 200px;
+}
+.jqbar.horizontal .bar-label
+{
+    text-align: right;
+    width: 100px;
+}
