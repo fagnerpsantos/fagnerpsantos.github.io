@@ -24,7 +24,8 @@
         <link rel="stylesheet" href="css/main.css">
         <!-- Responsive Stylesheet -->
         <link rel="stylesheet" href="css/responsive.css">
-        <meta name="referrer" content="origin" />
+        <meta name="referrer" content="origin">
+
 
     </head>
 
@@ -172,27 +173,18 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="form-group">
-                            <form id="contact-form">
-        <div class="form-group center-block">
-          <label for="inputName">Name</label>
-          <input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="name">
-        </div>
-        <div class="form-group center-block">
-          <label for="inputEmail">Email</label>
-          <input type="email" class="form-control contact-input" id="inputEmail" placeholder="Email" name="email">
-        </div>
-        <div class="form-group center-block">
-          <label for="inputMessage">Message</label>
-          <textarea id="inputMessage" class="form-control contact-input" rows="3" placeholder="Your Message" name="message"></textarea>
-        </div>
-        <input type="text" name="_gotcha" class="display-none">
-        <div class="text-center">
-          <button class="btn btn-default" type="submit" id="email-submit-btn" value="Send">
-            Submit
-          </button>
-        </div>
-        <span></span>
-      </form>
+                            <form action="http://formspree.io/fagnerpinheirosantos@gmail.com" method="post" id="contact-form">
+                                <div class="input-field">
+                                    <input type="text" class="form-control" placeholder="Your Name" name="name">
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" class="form-control" placeholder="Your Email" name="email">
+                                </div>
+                                <div class="input-field">
+                                    <textarea class="form-control" placeholder="Your Message" rows="3" name="message"></textarea>
+                                </div>
+                                <button class="btn btn-send" type="submit">Send</button>
+                            </form>
 
                             <div id="success">
                                 <p>Mensagem enviada com sucesso</p>
@@ -212,31 +204,8 @@
         	</div>
         </section>
 
-<script>
-    $(document).ready(function() {
-  $('#contact-form').submit(function(e) {
-    var name    = document.getElementById('inputName')
-    var email   = document.getElementById('inputEmail')
-    var message = document.getElementById('inputMessage')
-
-    if (!name.value || !email.value || !message.value) {
-      alertify.error("Please check your entries");
-      return false;
-    } else {
-      $.ajax({
-        method: 'POST',
-        url: '//formspree.io/fagnerpinheirosantos@gmail.com',
-        data: $('#contact-form').serialize(),
-        datatype: 'json'
-      });
-      e.preventDefault();
-      $(this).get(0).reset();
-      alertify.success("Message sent");
-    }
-  });
-});
-</script>
         
+
         <!-- Js -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
